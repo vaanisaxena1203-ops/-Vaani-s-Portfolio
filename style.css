@@ -1,0 +1,186 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+}
+
+body{
+    width: 100%;
+    height: 100%;
+    padding-left: 150px;
+    padding-right: 150px;
+}
+
+/* Navbar style */
+nav{
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav h1{
+    font-size: 30px;
+}
+
+nav div a{
+    margin-left: 50px;
+    color: black;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+/* Hero section content */
+.content{
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+
+.bodycontent{
+    width: 50%;
+    padding-top: 100px;
+}
+
+.bodycontent h4{
+    color: rgb(255, 0, 98);
+    text-transform: uppercase;
+}
+
+.bodycontent h1{
+    font-size: 70px;
+}
+.bodycontent p{
+    width: 70%;
+}
+
+.bodycontent div{
+    margin-top: 10px;
+}
+
+.bodycontent div .firstbtn{
+    background-color: rgb(252, 46, 104);
+    padding: 5px 20px;
+    border: none;
+    border-radius: 5px;
+}
+
+.bodycontent div .secondbtn{
+    padding: 5px 20px;
+    border: 2px solid black;
+    border-radius: 5px;
+    margin-left: 20px;
+}
+
+
+.imagecontent{
+    width: 50%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+.imagecontent img{
+    width: 90%;
+}
+
+/* Project section style */
+.projectContainer{
+    width: 100%;
+    /* vh - view port height */
+    height: 100vh;
+}
+
+.projectHeader{
+    width: 100%;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.projectHeader h1{
+    font-size: 45px;
+}
+
+.projectHeader hr{
+    width: 100px;
+    height: 2px;
+    background-color: rgb(255, 187, 0);
+    border: none;
+    border-radius: 10px;
+}
+
+.projectCards{
+    width: 100%;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 80px;
+}
+
+.cardContainer{
+    width: 80%;
+    height: 400px;
+    background-color: rgb(150, 102, 185);
+    display: flex;
+    border-radius: 20px;
+    align-items: center;
+}
+
+.cardContent{
+    width: 50%;
+    height: 100%;
+    margin-top: 80px;
+    margin-left: 30px;
+}
+
+.cardContent h1{
+    font-size: 30px;
+}
+
+.cardContent p{
+    width: 80%;
+    margin: 15px 0;
+}
+
+.cardContent button{
+    background-color: white;
+    border: 2px solid black;
+    padding: 5px 20px;
+    border-radius: 20px;
+}
+
+.cardImage{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padd
+}
+
+.cardImage img{
+    width: 100%;
+    height: 100%;
+    border-top-right-radius:20px;
+    border-bottom-right-radius:20px;
+}
+
+/* Social media icons style */
+.social{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+
+.socialContainer img{
+    width: 30px;
+    height: 30px;
+}
